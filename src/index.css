@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-blue: hsl(220, 98%, 61%);
+  --color-primary-blue-1: hsl(192, 100%, 67%);
+  --color-primary-purple: hsl(280, 87%, 65%);
+
+  /* Light Theme */
+  --very-light-gray-1:hsl(0, 0%, 98%);
+  --very-light-gray-2:hsl(236, 33%, 92%);
+  --very-light-gray-3:hsl(233, 11%, 84%);
+  --very-light-gray-4:hsl(236, 9%, 61%);
+  --very-light-gray-5:hsl(235, 19%, 35%);
+
+  /* Dark Theme */
+  --very-dark-1:hsl(234, 11%, 52%);
+  --very-dark-2:hsl(233, 14%, 35%);
+  --very-dark-3:hsl(237, 14%, 26%);
+  --very-dark-4:hsl(235, 24%, 19%);
+  --very-dark-5:hsl(235, 21%, 11%);
+
+  --light-gray-blue:hsl(234, 39%, 85%);
+  --light-gray-blue-hover:hsl(236, 33%, 92%);
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400; 
+  font-size:18px;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
+p{
+  color:var(--light-gray-blue);
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
